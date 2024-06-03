@@ -18,7 +18,6 @@ export class AppComponent {
       Breakpoints.Handset,
       Breakpoints.Small,
     ]).subscribe(result => {
-      console.log(result)
       this.isMobile = result.matches;
     });
    }
