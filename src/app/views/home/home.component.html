@@ -1,1 +1,9 @@
-<p>home works!</p>
+<div class="home-container">
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div *ngFor="let image of swiperImages" class="swiper-slide">
+        <img [src]="image" alt="Imagen">
+      </div>
+    </div>
+  </div>
+</div>
