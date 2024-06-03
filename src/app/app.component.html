@@ -2,13 +2,16 @@
   <!-- Esto hay que pasarlo a un componente aparte -->
   <nav class="navbar navbar-light bg-light">
     <div class="container">
-      <a class="navbar-brand" >
-        <img
-          src="https://freepngdesign.com/content/uploads/images/p-1695-3-angular-logo-png-transparent-logo-283739881635.png"
-          height="50"
-          alt=""
-          loading="lazy"
-        />
+      <a class="navbar-brand">
+        <div class="logo-container">
+          <i class="bi bi-list" *ngIf="isMobile"></i>
+          <img
+            src="https://freepngdesign.com/content/uploads/images/p-1695-3-angular-logo-png-transparent-logo-283739881635.png"
+            height="50"
+            alt=""
+            loading="lazy"
+          />
+        </div>
       </a>
     </div>
   </nav>

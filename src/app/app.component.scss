@@ -1,3 +1,12 @@
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+  
+.logo-container i {
+    margin-right: 20%; /* Ajusta el valor según el espacio deseado */
+}
+
 .footer {
     margin-top: 50px;
     margin-bottom: 50px;
